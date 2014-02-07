@@ -13,7 +13,7 @@ int main(void){
   scanf("%d",&year);
   /*in brackets below fill in your leap year expression (replace
     current contents*/
-  if( put your leap year expression here){ 
+  if((year%4 == 0 && year % 100!=0) || year % 400 ==0){ 
     printf("%d is a leap year\n",year);
   }
   else{
