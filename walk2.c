@@ -1,3 +1,4 @@
+#include <stdio.h>
 void go(int v){
     int i;
     for(i=0;i< v;i++){
@@ -21,10 +22,7 @@ int chop(int v){
 int main(void){
     int alpha = 7;
     int beta = 8; 
-    int gamma = 9; 
-
-
-
+    int gamma = 15; 
 
     printf("alpha: %d, beta:%d, gamma:%d\n",alpha,beta,gamma);
     alpha = chop(alpha);
