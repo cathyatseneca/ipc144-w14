@@ -43,6 +43,11 @@ int main(void){
      printf("isLeapYear(1900) returns correct return value\n");
    }
 
+   printf("smallest(2,5,-1) returned %d, should return -1\n",smallest(2,5,-1));
+   printf("smallest(10,20,30) returned %d, should return 10\n",smallest(10,20,30));
+   printf("smallest(10,-5,20) returned %d, should return -5\n",smallest(10,-5,20));
+   printf("smallest(10,10,10) returned %d, should return 10\n",smallest(10,10,10));
+   printf("smallest(-12,5,-12) returned %d, should return -12\n",smallest(-12,5,-12));
 
    return 0;
 

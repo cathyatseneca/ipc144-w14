@@ -5,3 +5,12 @@ int isLeapYear(int year){
   }
   return rc;
 }
+
+int smallest(int a,int b, int c){
+   int rc=a;
+
+   if(b > a){
+      rc=b;
+   }
+   return rc;
+}
