@@ -1,3 +1,4 @@
+int extract(int v);
 void draw(int alpha, int beta);
 
 int main(void){
