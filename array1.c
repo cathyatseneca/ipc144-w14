@@ -11,11 +11,27 @@ void printArray(int array[],int size,int maxPerLine);
 int main(){
 	int mydata1[10]={5,10,15,20,25,30,35,40,45,50};
 	int mydata2[20]={1,3,5,7,11,13,17,19,23,29,31,37};
+    
+    printArray(mydata1,10,3);
+    printArray(mydata2,12,5);
+    printf("average of array 1 is: %.2lf\n",average(mydata1,10));
 
 	return 0;
 }
+
 void printArray(int array[],int size,int maxPerLine){
-	
+	int i;
+	for(i=0;i<size;i++){
+		printf("%d",array[i]);
+		if(i%maxPerLine != maxPerLine -1 ){
+			printf(" ");
+		}
+		else{
+			printf("\n");
+		}
+
+	}
+	printf("\n");
 }
 
 
