@@ -46,3 +46,32 @@ float average(int array[],int size){
 
 	
 }
+
+double minMaxAve(int array[],int size,int* min, int* max){
+
+	int i;
+	double average;
+	for(i=0;i<size;i++){
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
