@@ -1,0 +1,6 @@
+Daisy;poodle,3
+Blue;great dane, 2
+Rover;terrier,5
+Frodo;yorkshire terrier,4
+Cat;golden retriever,6
+Face;bassett hound,7
